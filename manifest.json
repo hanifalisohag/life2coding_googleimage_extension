@@ -1,0 +1,30 @@
+{
+    "name":"Life2Coding Image URL",
+    "version": "1.0",
+    "description": "This extension is for downloading google image urls list in TXT format",
+    "manifest_version": 2,
+    "content_scripts":[
+        {
+            "matches":[ 
+                "*://*.google.com/search*"
+            ],
+            "js":["content.js"]
+        }
+        
+    ],
+    "permissions": ["tabs", "*://*.google.com/search*"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Click here!",
+        "default_icon": "icons/icon128.png"
+    },
+    "icons": { 
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+       "128": "icons/icon128.png" 
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      }
+}
