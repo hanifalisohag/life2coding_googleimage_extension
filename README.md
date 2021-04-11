@@ -4,4 +4,4 @@ This is the repo for the google image list extension is for downloading google i
 # Output
 ![Alt text](/result.JPG?raw=true "Extension")
 
-![Alt text](/result2.JPG?raw=true "Output")
+![Alt text](/result2.jpg?raw=true "Output")
